@@ -206,9 +206,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 856025358}
+      - m_Target: {fileID: 856025353}
         m_TargetAssemblyTypeName: TitleUIView, Assembly-CSharp
-        m_MethodName: OnClickGameStartButton
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -422,7 +422,6 @@ GameObject:
   - component: {fileID: 856025356}
   - component: {fileID: 856025355}
   - component: {fileID: 856025354}
-  - component: {fileID: 856025359}
   - component: {fileID: 856025358}
   m_Layer: 5
   m_Name: Canvas
@@ -523,24 +522,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 856025353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59a3be315772a4e86a51035dd54f62e1, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a0dc73ef52124ec485833f0ef5a644a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneLoadingPanel: {fileID: 1767139436}
-  sceneLoadingProgressBar: {fileID: 2004580166}
---- !u!114 &856025359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 856025353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96893b8944f6a43eca4fb2be638fa116, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  titleUIView: {fileID: 856025358}
+  _loadSceneButton: {fileID: 160308033}
 --- !u!1 &1170346559
 GameObject:
   m_ObjectHideFlags: 0
